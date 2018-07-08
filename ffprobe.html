@@ -1,0 +1,35 @@
+<script type="text/javascript">
+    RED.nodes.registerType('ffprobe',{
+        category: 'function',
+        color: '#ffaaaa',
+        defaults: {
+            name: {value:""},
+            prefix: {value:""},
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"ffprobe";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="ffprobe">
+    <div class="form-row">
+        <label for="node-input-prefix"><i class="fa fa-random"></i> Path Prefix</label>
+        <input type="text" id="node-input-prefix" placeholder="C:\CasparCG\server\media\">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+   
+</script>
+
+<script type="text/x-red" data-help-name="ffprobe">
+    <p>A simple node for retrieving data about media files using ffprobe and ffprobe-static</p>
+    <p>takes media path as input</p>
+    <p>path prefix can be included in node info</p>
+    <p>provides descriptive data about media as output</p>
+</script>

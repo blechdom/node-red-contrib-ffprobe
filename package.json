@@ -1,0 +1,19 @@
+{
+    "name": "node-red-contrib-ffprobe",
+    "version": "1.0.0",
+    "description": "node-red node for retrieving data about media files using ffprobe",
+    "main": "ffprobe.js",
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blechdom/node-red-contrib-ffprobe.git"
+    },
+    "author": "Kristin Grace Galvin",
+    "email": "blechdom@gmail.com",
+    "license": "ISC",
+    "node-red": {
+        "nodes": {
+            "ffprobe": "ffprobe.js"
+        }
+    }
+}
