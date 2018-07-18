@@ -6,6 +6,11 @@ A simple [Node-Red](http://nodered.org) node for retrieving data about media fil
 
 Requires [Node-Red](http://nodered.org)
 
+## Dependencies
+
+ffprobe
+ffprobe-static
+
 ## Installation
 
     $ npm i --save node-red-contrib-ffprobe
