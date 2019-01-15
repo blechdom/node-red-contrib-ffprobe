@@ -1,6 +1,6 @@
 {
     "name": "node-red-contrib-ffprobe",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "node-red node for retrieving data about media files using ffprobe",
     "main": "ffprobe.js",
     "dependencies": {},
